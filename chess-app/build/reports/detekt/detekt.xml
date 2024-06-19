@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/rules/ClearPath.kt">
+	<error line="22" column="17" severity="warning" message="The function getPath appears to be too complex based on Cyclomatic Complexity (complexity: 15). Defined complexity threshold for methods is set to &apos;15&apos;" source="detekt.CyclomaticComplexMethod" />
+	<error line="59" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\rules\ClearPath.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/types/endConditions/ClassicEndConditions.kt">
+	<error line="24" column="17" severity="warning" message="Function isThereAnyValidMove is nested too deeply." source="detekt.NestedBlockDepth" />
+	<error line="47" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\types\endConditions\ClassicEndConditions.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="28" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="29" column="30" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/PawnMovesComposite.kt">
+	<error line="14" column="12" severity="warning" message="This condition is too complex (4). Defined complexity threshold for conditions is set to &apos;4&apos;" source="detekt.ComplexCondition" />
+	<error line="21" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\PawnMovesComposite.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="14" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/elements/moveTypes/ClassicMove.kt">
+	<error line="8" column="80" severity="warning" message="The class or object ClassicMove is empty." source="detekt.EmptyClassBlock" />
+	<error line="10" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\elements\moveTypes\ClassicMove.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/elements/position/Position.kt">
+	<error line="3" column="46" severity="warning" message="The class or object Position is empty." source="detekt.EmptyClassBlock" />
+	<error line="4" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\elements\position\Position.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/ui/adapters/PieceAdapter.kt">
+	<error line="8" column="19" severity="warning" message="An empty default constructor can be removed." source="detekt.EmptyDefaultConstructor" />
+	<error line="26" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\ui\adapters\PieceAdapter.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/payload/GameOverPayload.kt">
+	<error line="4" column="44" severity="warning" message="The class or object GameOverPayload is empty." source="detekt.EmptyClassBlock" />
+	<error line="5" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\payload\GameOverPayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/payload/InvalidMovePayload.kt">
+	<error line="6" column="51" severity="warning" message="The class or object InvalidMovePayload is empty." source="detekt.EmptyClassBlock" />
+	<error line="7" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\payload\InvalidMovePayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/payload/MovePayload.kt">
+	<error line="6" column="62" severity="warning" message="The class or object MovePayload is empty." source="detekt.EmptyClassBlock" />
+	<error line="7" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\payload\MovePayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/payload/RedoPayload.kt">
+	<error line="3" column="40" severity="warning" message="The class or object RedoPayload is empty." source="detekt.EmptyClassBlock" />
+	<error line="4" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\payload\RedoPayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/payload/SuccessfulMovePayload.kt">
+	<error line="5" column="60" severity="warning" message="The class or object SuccessfulMovePayload is empty." source="detekt.EmptyClassBlock" />
+	<error line="6" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\payload\SuccessfulMovePayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/payload/UndoPayload.kt">
+	<error line="3" column="39" severity="warning" message="The class or object UndoPayload is empty." source="detekt.EmptyClassBlock" />
+	<error line="4" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\payload\UndoPayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/server/payload/ClientPayload.kt">
+	<error line="5" column="80" severity="warning" message="The class or object ClientPayload is empty." source="detekt.EmptyClassBlock" />
+	<error line="6" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\server\payload\ClientPayload.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/MessageProviderKtTest.kt">
+	<error line="1" column="1" severity="warning" message="The empty Kotlin file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\MessageProviderKtTest.kt can be removed." source="detekt.EmptyKtFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/SetBoardTest.kt">
+	<error line="1" column="1" severity="warning" message="The empty Kotlin file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\SetBoardTest.kt can be removed." source="detekt.EmptyKtFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/board/Board.kt">
+	<error line="51" column="9" severity="warning" message="Exception is a too generic Exception. Prefer throwing specific exceptions that indicate a specific error case." source="detekt.TooGenericExceptionThrown" />
+	<error line="62" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\board\Board.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/board/boardResults/InvalidBoardResult.kt">
+	<error line="10" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\board\boardResults\InvalidBoardResult.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/board/boardResults/SuccessfulBoardResult.kt">
+	<error line="10" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\board\boardResults\SuccessfulBoardResult.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="4" column="41" severity="warning" message="Private property `msg` is unused." source="detekt.UnusedPrivateProperty" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/elements/color/Color.kt">
+	<error line="5" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\elements\color\Color.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/actions/Action.kt">
+	<error line="9" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\actions\Action.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/factory/GameFactory.kt">
+	<error line="23" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\factory\GameFactory.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/factory/sharedRules/FriendlyFire.kt">
+	<error line="16" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\factory\sharedRules\FriendlyFire.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/factory/sharedRules/IsTargetWithinBounds.kt">
+	<error line="13" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\factory\sharedRules\IsTargetWithinBounds.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/factory/sharedRules/ItsPlayersTurn.kt">
+	<error line="11" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\factory\sharedRules\ItsPlayersTurn.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/GameEngine.kt">
+	<error line="18" column="9" severity="warning" message="Function move has 4 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="111" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\GameEngine.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="16" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="29" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="34" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="39" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="43" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="46" column="17" severity="warning" message="Private function `itsActionMove` is unused." source="detekt.UnusedPrivateMember" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/gameType/endConditions/EndCondition.kt">
+	<error line="9" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\gameType\endConditions\EndCondition.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/gameType/GameType.kt">
+	<error line="54" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\gameType\GameType.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/results/EndGameResult.kt">
+	<error line="20" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\results\EndGameResult.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/results/GameResult.kt">
+	<error line="10" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\results\GameResult.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/results/InvalidMoveResult.kt">
+	<error line="21" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\results\InvalidMoveResult.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/results/SuccessfulMoveResult.kt">
+	<error line="19" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\results\SuccessfulMoveResult.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/rules/GameRule.kt">
+	<error line="9" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\rules\GameRule.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/game/turnManager/TurnManager.kt">
+	<error line="10" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\game\turnManager\TurnManager.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/piece/factory/PieceFactory.kt">
+	<error line="31" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\piece\factory\PieceFactory.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="9" column="1" severity="warning" message="edu.austral.dissis.chess.engine.rules.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/piece/moveRules/MoveDiagonally.kt">
+	<error line="18" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\piece\moveRules\MoveDiagonally.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/piece/moveRules/MoveLimitation.kt">
+	<error line="9" column="18" severity="warning" message="Function isFulfilled has 3 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="16" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\piece\moveRules\MoveLimitation.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/piece/moveRules/MoveRule.kt">
+	<error line="9" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\piece\moveRules\MoveRule.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/piece/PieceType.kt">
+	<error line="12" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\piece\PieceType.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/piece/specialRules/SpecialRule.kt">
+	<error line="8" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\piece\specialRules\SpecialRule.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/ui/adapters/ColorAdapter.kt">
+	<error line="15" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\ui\adapters\ColorAdapter.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/ui/adapters/MoveAdapter.kt">
+	<error line="16" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\ui\adapters\MoveAdapter.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/ui/adapters/PositionAdapter.kt">
+	<error line="14" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\ui\adapters\PositionAdapter.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/ui/adapters/TestAdapter.kt">
+	<error line="51" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\ui\adapters\TestAdapter.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/ui/Main.kt">
+	<error line="47" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\ui\Main.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="10" column="1" severity="warning" message="edu.austral.dissis.chess.gui.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="29" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/common/ui/UIGameEngine.kt">
+	<error line="12" column="18" severity="warning" message="Function applyMove has 4 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="57" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\common\ui\UIGameEngine.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="5" column="1" severity="warning" message="edu.austral.dissis.chess.gui.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="36" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="44" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="30" column="39" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="30" column="41" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/ChessApp.kt">
+	<error line="37" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\ChessApp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/GameClient.kt">
+	<error line="9" column="1" severity="warning" message="connection.client.listener.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="10" column="1" severity="warning" message="edu.austral.dissis.chess.gui.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="26" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="22" column="53" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/listener/GameOverListener.kt">
+	<error line="17" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\listener\GameOverListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/listener/InitialStateListener.kt">
+	<error line="14" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\listener\InitialStateListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/listener/MyClientConnectionListener.kt">
+	<error line="15" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\listener\MyClientConnectionListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/listener/MyGameEventListener.kt">
+	<error line="20" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\listener\MyGameEventListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/client/listener/SuccessfulMoveListener.kt">
+	<error line="16" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\client\listener\SuccessfulMoveListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/server/ChessServer.kt">
+	<error line="35" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\server\ChessServer.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/server/GameServer.kt">
+	<error line="61" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\server\GameServer.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="4" column="1" severity="warning" message="connection.client.payload.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="10" column="1" severity="warning" message="edu.austral.dissis.chess.gui.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="20" column="19" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/server/listener/MoveListener.kt">
+	<error line="29" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\server\listener\MoveListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/server/listener/MyServerConnectionListener.kt">
+	<error line="18" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\server\listener\MyServerConnectionListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/server/listener/RedoListener.kt">
+	<error line="13" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\server\listener\RedoListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/connection/server/listener/UndoListener.kt">
+	<error line="15" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\connection\server\listener\UndoListener.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/actions/CastlingAction.kt">
+	<error line="15" column="18" severity="warning" message="Function execute has 3 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="31" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\actions\CastlingAction.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="18" column="78" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="18" column="97" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="18" column="99" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="20" column="63" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="24" column="99" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="26" column="63" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/actions/CheckersCapture.kt">
+	<error line="15" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\actions\CheckersCapture.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/actions/CheckersPromotion.kt">
+	<error line="15" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\actions\CheckersPromotion.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/actions/ChessCapture.kt">
+	<error line="20" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\actions\ChessCapture.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/actions/ChessPromotion.kt">
+	<error line="14" column="18" severity="warning" message="Function isFulfilled has 3 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="32" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\actions\ChessPromotion.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="28" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/rules/CheckValidator.kt">
+	<error line="34" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\rules\CheckValidator.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/rules/IsEnemyPieceThere.kt">
+	<error line="11" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\rules\IsEnemyPieceThere.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/game/types/ruleSets/ClassicChessRuleSet.kt">
+	<error line="45" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\game\types\ruleSets\ClassicChessRuleSet.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/KingMoves.kt">
+	<error line="16" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\KingMoves.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/MoveForward.kt">
+	<error line="19" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\MoveForward.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/MoveHorizontally.kt">
+	<error line="16" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\MoveHorizontally.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/MoveLShape.kt">
+	<error line="24" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\MoveLShape.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/MoveVertically.kt">
+	<error line="15" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\MoveVertically.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/MoveVerticalORHorizontal.kt">
+	<error line="13" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\MoveVerticalORHorizontal.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/QueenMoves.kt">
+	<error line="18" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\QueenMoves.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/specialRules/Castling.kt">
+	<error line="11" column="18" severity="warning" message="Function isFulfilled has 3 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="43" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\specialRules\Castling.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="22" column="32" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="22" column="70" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="23" column="33" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="23" column="53" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="23" column="71" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="23" column="89" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="26" column="32" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="26" column="70" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="27" column="33" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="27" column="53" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="27" column="71" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="27" column="89" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="83" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="120" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="122" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="36" column="122" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/rules/specialRules/DoublePawnMove.kt">
+	<error line="17" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\rules\specialRules\DoublePawnMove.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="12" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="14" column="28" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="14" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/ClassicChessBoardSetUp.kt">
+	<error line="64" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\ClassicChessBoardSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="10" column="1" severity="warning" message="edu.austral.dissis.chess.engine.rules.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="17" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="17" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="20" column="27" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="23" column="50" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="31" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="33" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="35" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="35" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="37" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="39" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="41" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="41" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="43" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="43" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="47" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="49" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="51" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="51" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="53" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="55" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="55" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="57" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="59" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="59" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/king/CastlingSetUp.kt">
+	<error line="33" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\king\CastlingSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="16" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="16" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="22" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="24" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="26" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="26" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="28" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="30" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="30" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/king/CheckMateSetUp.kt">
+	<error line="29" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\king\CheckMateSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="16" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="16" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="20" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="22" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="22" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="24" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="26" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="26" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/pawn/ChessPromotionSetUp.kt">
+	<error line="22" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\pawn\ChessPromotionSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="18" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="15" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="15" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="19" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/pawn/PathNotClearSetUp.kt">
+	<error line="24" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\pawn\PathNotClearSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="18" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="20" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="15" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="15" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="21" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/pawn/PawnCaptureSetUp.kt">
+	<error line="24" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\pawn\PawnCaptureSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="18" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="20" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="15" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="15" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="21" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/rook/RookMovesSetUp.kt">
+	<error line="26" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\rook\RookMovesSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="13" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="13" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="19" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="21" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="23" column="43" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="23" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/main/kotlin/edu/austral/dissis/chess/engine/setUps/rook/RookPathNotClearSetUp.kt">
+	<error line="25" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\main\kotlin\edu\austral\dissis\chess\engine\setUps\rook\RookPathNotClearSetUp.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="21" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="16" column="23" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="16" column="26" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+	<error line="22" column="46" severity="warning" message="This expression contains a magic number. Consider defining it to a well named constant." source="detekt.MagicNumber" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/exam/MyEngineTestGameRunner.kt">
+	<error line="34" column="18" severity="warning" message="Function executeMove has 3 return statements which exceeds the limit of 2." source="detekt.ReturnCount" />
+	<error line="90" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\exam\MyEngineTestGameRunner.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="18" column="1" severity="warning" message="edu.austral.dissis.chess.test.game.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+	<error line="60" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+	<error line="76" column="1" severity="warning" message="Line detected, which is longer than the defined maximum line length in the code style." source="detekt.MaxLineLength" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/pieceMovesTest/PawnMovesTest.kt">
+	<error line="117" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\pieceMovesTest\PawnMovesTest.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/pieceMovesTest/RookMovesTest.kt">
+	<error line="104" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\pieceMovesTest\RookMovesTest.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/predefined/DummyTestMoveRunner.kt">
+	<error line="23" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\predefined\DummyTestMoveRunner.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/predefined/KnightMoveTests.kt">
+	<error line="61" column="2" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\predefined\KnightMoveTests.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="C:/Users/pablo/projects/DisSist/chess-Pagliaricci/engine/src/test/kotlin/edu/austral/dissis/chess/engine/predefined/MyTestMoveRunner.kt">
+	<error line="29" column="4" severity="warning" message="The file C:\Users\pablo\projects\DisSist\chess-Pagliaricci\engine\src\test\kotlin\edu\austral\dissis\chess\engine\predefined\MyTestMoveRunner.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+</checkstyle>

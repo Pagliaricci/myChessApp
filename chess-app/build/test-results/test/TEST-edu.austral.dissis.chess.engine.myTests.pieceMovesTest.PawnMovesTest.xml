@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-06-18T20:40:22" hostname="DESKTOP-RV0KP29" time="0.043">
+  <properties/>
+  <testcase name="pawnCapture()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.006"/>
+  <testcase name="promotion()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.005"/>
+  <testcase name="pawnMoveDiagonal()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.003"/>
+  <testcase name="pawnMovingOneUp()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.004"/>
+  <testcase name="pawnMovingTwoUp()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.004"/>
+  <testcase name="pawnInvalidMove()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.003"/>
+  <testcase name="pawnPathNotClear()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.005"/>
+  <testcase name="pawnMoveBackwards()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.PawnMovesTest" time="0.003"/>
+  <system-out><![CDATA[[]
+[]
+[]
+[]
+[Position(x=1, y=3)]
+[Position(x=1, y=3), Position(x=1, y=4)]
+[Position(x=1, y=3)]
+[]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

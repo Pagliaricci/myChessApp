@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.austral.dissis.chess.engine.myTests.variationTests.FirstCheckTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-18T20:40:23" hostname="DESKTOP-RV0KP29" time="0.005">
+  <properties/>
+  <testcase name="testFirstCheck()" classname="edu.austral.dissis.chess.engine.myTests.variationTests.FirstCheckTest" time="0.005"/>
+  <system-out><![CDATA[[]
+[Position(x=6, y=6)]
+[Position(x=5, y=2), Position(x=6, y=3), Position(x=7, y=4)]
+[Position(x=7, y=6), Position(x=6, y=7)]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

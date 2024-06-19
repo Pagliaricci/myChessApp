@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.ChancellorMovesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-06-18T20:40:22" hostname="DESKTOP-RV0KP29" time="0.025">
+  <properties/>
+  <testcase name="chancellorMoveRight()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.ChancellorMovesTest" time="0.001"/>
+  <testcase name="chancellorMoveUpRight()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.ChancellorMovesTest" time="0.001"/>
+  <testcase name="chancellorMoveUp()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.ChancellorMovesTest" time="0.011"/>
+  <testcase name="chancellorMoveDown()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.ChancellorMovesTest" time="0.002"/>
+  <testcase name="chancellorMoveLeft()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.ChancellorMovesTest" time="0.003"/>
+  <system-out><![CDATA[[Position(x=5, y=4), Position(x=6, y=4), Position(x=7, y=4)]
+[Position(x=5, y=5), Position(x=6, y=6), Position(x=7, y=7)]
+|   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   |
+|   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   |
+|   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   |
+|   0   ||   0   ||   0   | | CHANCELLOR | |   0   ||   0   ||   0   ||   0   |
+|   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   |
+|   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   |
+|   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   |
+|   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   ||   0   |
+[Position(x=4, y=5), Position(x=4, y=6), Position(x=4, y=7)]
+[Position(x=4, y=3), Position(x=4, y=2)]
+[Position(x=3, y=4), Position(x=2, y=4)]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

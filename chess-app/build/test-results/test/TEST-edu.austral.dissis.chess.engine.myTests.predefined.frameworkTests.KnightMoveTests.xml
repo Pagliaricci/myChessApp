@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.austral.dissis.chess.engine.myTests.predefined.frameworkTests.KnightMoveTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-18T20:40:23" hostname="DESKTOP-RV0KP29" time="0.009">
+  <properties/>
+  <testcase name="test basic knight moves()" classname="edu.austral.dissis.chess.engine.myTests.predefined.frameworkTests.KnightMoveTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersPieceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-06-18T20:40:22" hostname="DESKTOP-RV0KP29" time="0.042">
+  <properties/>
+  <testcase name="checkersInvalidMove()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersPieceTest" time="0.007"/>
+  <testcase name="checkersMovingLeftUp()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersPieceTest" time="0.004"/>
+  <testcase name="promotionTest()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersPieceTest" time="0.005"/>
+  <testcase name="endGameTest()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersPieceTest" time="0.006"/>
+  <testcase name="checkersMovingRightUp()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersPieceTest" time="0.005"/>
+  <testcase name="multipleCaptureTest()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersPieceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

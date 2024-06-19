@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersKingTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-06-18T20:40:22" hostname="DESKTOP-RV0KP29" time="0.025">
+  <properties/>
+  <testcase name="checkersKingCapture()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersKingTest" time="0.009"/>
+  <testcase name="checkersKingMovingLeftUp()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersKingTest" time="0.002"/>
+  <testcase name="checkersKingMovingRightDown()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersKingTest" time="0.002"/>
+  <testcase name="checkersKingMovingLeftDown()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersKingTest" time="0.002"/>
+  <testcase name="checkersKingMovingRightUp()" classname="edu.austral.dissis.chess.engine.myTests.pieceMovesTest.CheckersKingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

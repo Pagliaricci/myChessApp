@@ -1,0 +1,27 @@
+plugins {
+    id 'application-conventions'
+    id("org.openjfx.javafxplugin").version("0.0.13")
+
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-text'
+    implementation 'org.jsoup:jsoup:1.14.3'
+    testImplementation 'edu.austral.dissis.chess:test-framework:1.3.0'
+    implementation("edu.austral.dissis.chess:chess-ui:2.1.0")
+    implementation("edu.austral.dissis.chess:simple-client-server:1.2.0")
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.1'
+}
+
+javafx {
+    // Define the JavaFX version to use.
+    version = "21"
+    modules = ['javafx.graphics']
+
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'edu.austral.dissis.chess.engine.App'
+//    mainClass = 'edu.austral.dissis.chess.engine.AppKt'
+}
